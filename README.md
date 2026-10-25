@@ -24,7 +24,7 @@ Anyone who wants to fall asleep faster without spending $70/year on subscription
 ## Demo
 
 - **GitHub Repository**: [https://github.com/rajukanna/Drift](https://github.com/rajukanna/Drift)
-- **Deployment**: Ready for 1-click free static hosting on Render (via [`render.yaml`](render.yaml)) or any static host.
+- **Deployment Live URL**: https://drift-hwi6.onrender.com
 
 ### Visual Preview
 
@@ -116,16 +116,6 @@ This project was developed and validated collaboratively with Google Antigravity
 - Engineered mathematical noise generation algorithms for all 6 Web Audio layers.
 - Formulated the calming multi-chapter narrative grammar.
 - Ran live browser subagents to validate audio playback, speech utterance queuing, and service worker offline caching.
-
----
-
-## The Lazy Payoff
-
-- **0 accounts created**: No signups, passwords, or emails.
-- **0 dollars spent**: Completely free and open-source forever.
-- **0 bytes streamed**: Zero bandwidth consumed while you sleep.
-- **100% offline**: Works on airplanes, camping trips, or in bedrooms with WiFi turned off.
-- **Instant sleep setup**: Tap one preset like *Midnight Rain*, turn your phone face down, and let the timer fade softly into the night.
 
 ---
 
