@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#1e2246"/>
+      <stop offset="50%" stop-color="#11152d"/>
+      <stop offset="100%" stop-color="#090b16"/>
+    </radialGradient>
+    <linearGradient id="crescent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff5db"/>
+      <stop offset="60%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="cloud" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <!-- Stars -->
+  <circle cx="160" cy="140" r="2.5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="370" cy="120" r="3" fill="#ffffff" opacity="0.9"/>
+  <circle cx="320" cy="190" r="2" fill="#fed7aa" opacity="0.75"/>
+  <circle cx="120" cy="280" r="2" fill="#ffffff" opacity="0.6"/>
+  <circle cx="390" cy="270" r="2.5" fill="#fed7aa" opacity="0.85"/>
+  <polygon points="360,160 363,169 372,172 363,175 360,184 357,175 348,172 357,169" fill="#fde68a" opacity="0.9"/>
+  <!-- Glowing Crescent Moon -->
+  <path d="M 330 110 C 240 120 180 200 180 290 C 180 380 248 440 338 440 C 230 450 140 365 140 260 C 140 165 215 105 330 110 Z" fill="url(#crescent)" filter="url(#glow)"/>
+  <!-- Calming Dream Cloud -->
+  <g filter="url(#glow)" opacity="0.95">
+    <path d="M 220 380 L 360 380 A 40 40 0 0 0 360 300 A 30 30 0 0 0 325 270 A 55 55 0 0 0 230 290 A 45 45 0 0 0 220 380 Z" fill="url(#cloud)"/>
+  </g>
+</svg>
